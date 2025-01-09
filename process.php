@@ -4,9 +4,9 @@ session_start();
 require 'vendor/autoload.php';
 use Carbon\Carbon;
 // Token dari Bot Telegram
-$telegramToken = "7964663177:AAFm0ukzz7wV3_EAcYAzh8R5XL0R-0inGqw";
+$telegramToken = "";
 // ID Chat Telegram (dapat ditemukan setelah berbicara dengan bot Anda)
-$chatId = "-1002461789669";
+$chatId = "";
 
 Carbon::setLocale('id');
 date_default_timezone_set("Asia/Jakarta");
